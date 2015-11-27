@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FEFE641BA0889C00337CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFE631BA0889C00337CC8 /* main.m */; };
+		84FEFE671BA0889C00337CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFE661BA0889C00337CC8 /* AppDelegate.m */; };
+		84FEFE6A1BA0889C00337CC8 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFE691BA0889C00337CC8 /* ListViewController.m */; };
+		84FEFE6D1BA0889C00337CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FEFE6B1BA0889C00337CC8 /* Main.storyboard */; };
+		84FEFE6F1BA0889C00337CC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FEFE6E1BA0889C00337CC8 /* Images.xcassets */; };
+		84FEFE721BA0889C00337CC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FEFE701BA0889C00337CC8 /* LaunchScreen.xib */; };
+		84FEFE7E1BA0889C00337CC8 /* HeadphoneListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFE7D1BA0889C00337CC8 /* HeadphoneListTests.m */; };
+		84FEFEBB1BA0986700337CC8 /* Headphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFEBA1BA0986700337CC8 /* Headphone.m */; };
+		84FEFEBF1BA09AC700337CC8 /* HeadphoneList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEFEBE1BA09AC700337CC8 /* HeadphoneList.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FEFE781BA0889C00337CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FEFE561BA0889C00337CC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FEFE5D1BA0889C00337CC8;
+			remoteInfo = HeadphoneList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FEFE5E1BA0889C00337CC8 /* HeadphoneList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadphoneList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FEFE621BA0889C00337CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FEFE631BA0889C00337CC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FEFE651BA0889C00337CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FEFE661BA0889C00337CC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FEFE681BA0889C00337CC8 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		84FEFE691BA0889C00337CC8 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		84FEFE6C1BA0889C00337CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FEFE6E1BA0889C00337CC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84FEFE711BA0889C00337CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84FEFE771BA0889C00337CC8 /* HeadphoneListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeadphoneListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FEFE7C1BA0889C00337CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FEFE7D1BA0889C00337CC8 /* HeadphoneListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadphoneListTests.m; sourceTree = "<group>"; };
+		84FEFEB91BA0986700337CC8 /* Headphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Headphone.h; path = Model/Headphone.h; sourceTree = "<group>"; };
+		84FEFEBA1BA0986700337CC8 /* Headphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Headphone.m; path = Model/Headphone.m; sourceTree = "<group>"; };
+		84FEFEBD1BA09AC700337CC8 /* HeadphoneList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeadphoneList.h; path = Model/HeadphoneList.h; sourceTree = "<group>"; };
+		84FEFEBE1BA09AC700337CC8 /* HeadphoneList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadphoneList.m; path = Model/HeadphoneList.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FEFE5B1BA0889C00337CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FEFE741BA0889C00337CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FEFE551BA0889C00337CC8 = {
+			isa = PBXGroup;
+			children = (
+				84FEFE601BA0889C00337CC8 /* HeadphoneList */,
+				84FEFE7A1BA0889C00337CC8 /* HeadphoneListTests */,
+				84FEFE5F1BA0889C00337CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FEFE5F1BA0889C00337CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FEFE5E1BA0889C00337CC8 /* HeadphoneList.app */,
+				84FEFE771BA0889C00337CC8 /* HeadphoneListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FEFE601BA0889C00337CC8 /* HeadphoneList */ = {
+			isa = PBXGroup;
+			children = (
+				84FEFEBC1BA0986C00337CC8 /* Model */,
+				84FEFE651BA0889C00337CC8 /* AppDelegate.h */,
+				84FEFE661BA0889C00337CC8 /* AppDelegate.m */,
+				84FEFE681BA0889C00337CC8 /* ListViewController.h */,
+				84FEFE691BA0889C00337CC8 /* ListViewController.m */,
+				84FEFE6B1BA0889C00337CC8 /* Main.storyboard */,
+				84FEFE6E1BA0889C00337CC8 /* Images.xcassets */,
+				84FEFE701BA0889C00337CC8 /* LaunchScreen.xib */,
+				84FEFE611BA0889C00337CC8 /* Supporting Files */,
+			);
+			path = HeadphoneList;
+			sourceTree = "<group>";
+		};
+		84FEFE611BA0889C00337CC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FEFE621BA0889C00337CC8 /* Info.plist */,
+				84FEFE631BA0889C00337CC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FEFE7A1BA0889C00337CC8 /* HeadphoneListTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FEFE7D1BA0889C00337CC8 /* HeadphoneListTests.m */,
+				84FEFE7B1BA0889C00337CC8 /* Supporting Files */,
+			);
+			path = HeadphoneListTests;
+			sourceTree = "<group>";
+		};
+		84FEFE7B1BA0889C00337CC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FEFE7C1BA0889C00337CC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84FEFEBC1BA0986C00337CC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84FEFEB91BA0986700337CC8 /* Headphone.h */,
+				84FEFEBA1BA0986700337CC8 /* Headphone.m */,
+				84FEFEBD1BA09AC700337CC8 /* HeadphoneList.h */,
+				84FEFEBE1BA09AC700337CC8 /* HeadphoneList.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FEFE5D1BA0889C00337CC8 /* HeadphoneList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FEFE811BA0889C00337CC8 /* Build configuration list for PBXNativeTarget "HeadphoneList" */;
+			buildPhases = (
+				84FEFE5A1BA0889C00337CC8 /* Sources */,
+				84FEFE5B1BA0889C00337CC8 /* Frameworks */,
+				84FEFE5C1BA0889C00337CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadphoneList;
+			productName = HeadphoneList;
+			productReference = 84FEFE5E1BA0889C00337CC8 /* HeadphoneList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FEFE761BA0889C00337CC8 /* HeadphoneListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FEFE841BA0889C00337CC8 /* Build configuration list for PBXNativeTarget "HeadphoneListTests" */;
+			buildPhases = (
+				84FEFE731BA0889C00337CC8 /* Sources */,
+				84FEFE741BA0889C00337CC8 /* Frameworks */,
+				84FEFE751BA0889C00337CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FEFE791BA0889C00337CC8 /* PBXTargetDependency */,
+			);
+			name = HeadphoneListTests;
+			productName = HeadphoneListTests;
+			productReference = 84FEFE771BA0889C00337CC8 /* HeadphoneListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FEFE561BA0889C00337CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84FEFE5D1BA0889C00337CC8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					84FEFE761BA0889C00337CC8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 84FEFE5D1BA0889C00337CC8;
+					};
+				};
+			};
+			buildConfigurationList = 84FEFE591BA0889C00337CC8 /* Build configuration list for PBXProject "HeadphoneList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FEFE551BA0889C00337CC8;
+			productRefGroup = 84FEFE5F1BA0889C00337CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FEFE5D1BA0889C00337CC8 /* HeadphoneList */,
+				84FEFE761BA0889C00337CC8 /* HeadphoneListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FEFE5C1BA0889C00337CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FEFE6D1BA0889C00337CC8 /* Main.storyboard in Resources */,
+				84FEFE721BA0889C00337CC8 /* LaunchScreen.xib in Resources */,
+				84FEFE6F1BA0889C00337CC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FEFE751BA0889C00337CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FEFE5A1BA0889C00337CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FEFE6A1BA0889C00337CC8 /* ListViewController.m in Sources */,
+				84FEFEBF1BA09AC700337CC8 /* HeadphoneList.m in Sources */,
+				84FEFE671BA0889C00337CC8 /* AppDelegate.m in Sources */,
+				84FEFEBB1BA0986700337CC8 /* Headphone.m in Sources */,
+				84FEFE641BA0889C00337CC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FEFE731BA0889C00337CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FEFE7E1BA0889C00337CC8 /* HeadphoneListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FEFE791BA0889C00337CC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FEFE5D1BA0889C00337CC8 /* HeadphoneList */;
+			targetProxy = 84FEFE781BA0889C00337CC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FEFE6B1BA0889C00337CC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FEFE6C1BA0889C00337CC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FEFE701BA0889C00337CC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FEFE711BA0889C00337CC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FEFE7F1BA0889C00337CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84FEFE801BA0889C00337CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FEFE821BA0889C00337CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeadphoneList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84FEFE831BA0889C00337CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeadphoneList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84FEFE851BA0889C00337CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeadphoneListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadphoneList.app/HeadphoneList";
+			};
+			name = Debug;
+		};
+		84FEFE861BA0889C00337CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HeadphoneListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeadphoneList.app/HeadphoneList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FEFE591BA0889C00337CC8 /* Build configuration list for PBXProject "HeadphoneList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FEFE7F1BA0889C00337CC8 /* Debug */,
+				84FEFE801BA0889C00337CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FEFE811BA0889C00337CC8 /* Build configuration list for PBXNativeTarget "HeadphoneList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FEFE821BA0889C00337CC8 /* Debug */,
+				84FEFE831BA0889C00337CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84FEFE841BA0889C00337CC8 /* Build configuration list for PBXNativeTarget "HeadphoneListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FEFE851BA0889C00337CC8 /* Debug */,
+				84FEFE861BA0889C00337CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FEFE561BA0889C00337CC8 /* Project object */;
+}
